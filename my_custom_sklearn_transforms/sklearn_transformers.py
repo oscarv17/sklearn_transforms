@@ -1,6 +1,5 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 from imblearn.over_sampling import SMOTE
-from pandas as pd
 
 
 # All sklearn Transforms must have the `transform` and `fit` methods
